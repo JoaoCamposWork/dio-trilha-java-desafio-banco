@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+
         //TODO: CONHECER E IMPORTAR A CLASSE SCANNER 
 
         //EXIBIR AS MENSAGENS PARA O NOSSO USUÁRIO 
@@ -33,6 +34,9 @@ public class ContaTerminal {
         // EXIBIR A MENSAGEM FINAL DO USUARIO
         String mensagemFinal = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque." + " OBRIGADO !";
         System.out.println(mensagemFinal);
+
+        String saidaNova = "muito obrigado por ser nosso cliente " + nomeCliente + " nos ficamos sastifeitos em ter o senhor como cliente ";
+        System.out.println (saidaNova);
 
         scanner.close(); 
     }
